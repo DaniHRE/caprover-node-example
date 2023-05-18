@@ -9,6 +9,6 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 4000
 
 CMD ["node", "index.js", "&&", "unset http_proxy", "&&", "unset https_proxy", "&&", "unset no_proxy"]
